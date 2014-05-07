@@ -3,16 +3,19 @@
   <html lang="fr">
   <head>
     <title>Address book - web storage js tutorial</title>
+   	<link href="css/style.css" rel="stylesheet">
   </head>  
   <body>  		
 	<h1>Contacts</h1>
-		<table id="contacts-head">
-				<th>ID</th>
-				<th> First name </th>
-				<th> Last name </th>
-				 <th>Email</th>
-        		<th>Actions</th>
-		</table>
+	<table id="contacts-table">
+			<tr id="contacts-head">
+	        	<th>ID</th>
+	        	<th>First name</th>
+	        	<th>Last name</th>
+	        	<th>Email</th>
+	        	<th>Actions</th>
+	    	</tr>
+	</table>
 	<form id="contacts-form">
 		<div class="item text">
           <label>First name:</label>
@@ -35,8 +38,8 @@
 	        </div>
         </div>
          <input type="hidden" name="id_entry" value="0" />
-	</form>	
-	<script src="addressBook.js" type="text/javascript"></script>		
+	</form>			
+	<script src="script/addressBook.js" type="text/javascript"></script>		
   </body>
   </html>
 
